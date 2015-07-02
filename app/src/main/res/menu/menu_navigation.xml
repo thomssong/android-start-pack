@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_transport"
+            android:icon="@drawable/rocket_black_24dp"
+            android:title="@string/title_nav_transport"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_food"
+            android:icon="@drawable/pizza_black_24dp"
+            android:title="@string/title_nav_food"/>
+        <item
+            android:id="@+id/nav_animal"
+            android:icon="@drawable/panda_black_24dp"
+            android:title="@string/title_nav_animal"/>
+        <item
+            android:id="@+id/nav_city"
+            android:icon="@drawable/city_black_24dp"
+            android:title="@string/title_nav_city"/>
+
+    </group>
+
+</menu>

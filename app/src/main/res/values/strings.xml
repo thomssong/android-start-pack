@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Start Pack</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+    <string name="title_nav_transport">Transport</string>
+    <string name="title_nav_food">Food</string>
+    <string name="title_nav_animal">Animal</string>
+    <string name="title_nav_city">City</string>
+
+    <string name="hint_et_id">아이디</string>
+    <string name="hint_et_pwd">비밀번호</string>
+
+    <string name="btn_login">로그인</string>
+
+
+    <string name="dummy_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus faucibus, lacus consectetur sodales facilisis, lorem nisi efficitur magna, at mattis tortor velit sed enim. Integer volutpat massa ligula, et gravida nibh faucibus non. Donec elementum volutpat arcu, suscipit cursus dui ultrices eget. Maecenas eget sodales ligula. Nunc vehicula, velit non facilisis euismod, arcu urna vehicula neque, id sollicitudin ipsum elit ut urna. Morbi rhoncus vitae sem at hendrerit. Aenean interdum finibus ligula, a blandit orci mollis in. Pellentesque porttitor, enim et aliquam ultrices, est enim mollis dui, et scelerisque ante risus eu massa. Aenean rhoncus, dui at porttitor suscipit, ex leo accumsan felis, at dapibus augue quam quis nunc. Sed pulvinar erat interdum pharetra finibus.</string>
+</resources>

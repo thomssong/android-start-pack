@@ -1,0 +1,16 @@
+<resources>
+
+    <dimen name="navigation_header_height">192dp</dimen>
+
+    <dimen name="padding_list_item_side">16dp</dimen>
+    <dimen name="padding_list_item_vertical">80dp</dimen>
+
+    <dimen name="spacing_splash_side">160dp</dimen>
+    <dimen name="spacing_splash_vertical">16dp</dimen>
+    <dimen name="spacing_component_side">8dp</dimen>
+    <dimen name="spacing_recyclerview_item">2dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>

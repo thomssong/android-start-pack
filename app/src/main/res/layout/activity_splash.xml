@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kr.ac.knou.press.knouebook.SplashActivity">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/layout_input_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/spacing_splash_side"
+        android:layout_marginRight="@dimen/spacing_splash_side">
+        <EditText
+            android:id="@+id/et_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_et_id"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/layout_input_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_input_id"
+        android:layout_marginTop="@dimen/spacing_splash_vertical"
+        android:layout_marginLeft="@dimen/spacing_splash_side"
+        android:layout_marginRight="@dimen/spacing_splash_side">
+        <EditText
+            android:id="@+id/et_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_et_pwd"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_input_pwd"
+        android:layout_marginTop="@dimen/spacing_splash_vertical"
+        android:layout_marginLeft="@dimen/spacing_splash_side"
+        android:layout_marginRight="@dimen/spacing_splash_side"
+        android:text="@string/btn_login"
+        android:textSize="18sp"/>
+
+</RelativeLayout>
