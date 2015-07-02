@@ -6,7 +6,6 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import com.bumptech.glide.load.resource.bitmap.BitmapTransformation;
 
 import kr.tomassong.startpack.R;
 import kr.tomassong.startpack.data.ContentItem;
@@ -14,12 +13,6 @@ import kr.tomassong.startpack.data.Item;
 import kr.tomassong.startpack.data.Type;
 import kr.tomassong.startpack.view.CircleTransform;
 
-/**
- * Created by Tomas on 15. 7. 2.
- * Copyright (C) 2013. 5.   Orange Digit Inc. All rights reserved.
- * ViewPorter® is Trademark of Orange Digit Inc.
- * Prohibited to copy or distribute.
- */
 public class ContentViewHolder extends ViewHolder {
 
     private TextView title;

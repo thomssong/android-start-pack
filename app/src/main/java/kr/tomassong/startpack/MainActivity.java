@@ -129,6 +129,7 @@ public class MainActivity extends BaseActivity implements
         recyclerView.setAdapter(adapter);
     }
 
+
     private List<Item> getData(Type type){
         List<Item> items = new ArrayList<>();
 
@@ -152,7 +153,6 @@ public class MainActivity extends BaseActivity implements
     /**
      *  RecyclerView Item event
      */
-
     @Override
     public void onItemClick(View view) {
         int position = recyclerView.getChildAdapterPosition(view);

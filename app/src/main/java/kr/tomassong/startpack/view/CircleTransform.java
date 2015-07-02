@@ -9,12 +9,6 @@ import android.graphics.Paint;
 import com.bumptech.glide.load.engine.bitmap_recycle.BitmapPool;
 import com.bumptech.glide.load.resource.bitmap.BitmapTransformation;
 
-/**
- * Created by Tomas on 15. 7. 2.
- * Copyright (C) 2013. 5.   Orange Digit Inc. All rights reserved.
- * ViewPorter® is Trademark of Orange Digit Inc.
- * Prohibited to copy or distribute.
- */
 public class CircleTransform extends BitmapTransformation {
     public CircleTransform(Context context) {
         super(context);
