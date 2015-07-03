@@ -15,8 +15,15 @@
     <string name="hint_et_id">아이디</string>
     <string name="hint_et_pwd">비밀번호</string>
 
+    <!--Button -->
+    <string name="btn_positive">확인</string>
+    <string name="btn_negative">취소</string>
     <string name="btn_login">로그인</string>
 
+    <!--Dialog Title-->
+    <string name="title_dlg_error">오류</string>
+    <string name="title_dlg_notification">알림</string>
 
+    <!--Dummy Text-->
     <string name="dummy_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus faucibus, lacus consectetur sodales facilisis, lorem nisi efficitur magna, at mattis tortor velit sed enim. Integer volutpat massa ligula, et gravida nibh faucibus non. Donec elementum volutpat arcu, suscipit cursus dui ultrices eget. Maecenas eget sodales ligula. Nunc vehicula, velit non facilisis euismod, arcu urna vehicula neque, id sollicitudin ipsum elit ut urna. Morbi rhoncus vitae sem at hendrerit. Aenean interdum finibus ligula, a blandit orci mollis in. Pellentesque porttitor, enim et aliquam ultrices, est enim mollis dui, et scelerisque ante risus eu massa. Aenean rhoncus, dui at porttitor suscipit, ex leo accumsan felis, at dapibus augue quam quis nunc. Sed pulvinar erat interdum pharetra finibus.</string>
 </resources>

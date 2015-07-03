@@ -3,32 +3,34 @@ package kr.tomassong.startpack.data;
 import java.util.HashMap;
 import java.util.Map;
 
+import kr.tomassong.startpack.R;
+
 /**
  *  App Status Data (for AsyncTask, Handler, Dialog Message, etc...)
  */
 public enum MyStatus {
     OK(0),
-    INSTALL(1); //R.string.msg_install_epub
+    NETWORK_ERROR(R.string.msg_network_error);
 
-    private int code;
+    private int msg;
 
     private static Map<Integer, MyStatus> map = new HashMap<>();
 
     static {
         for(MyStatus status : MyStatus.values()){
-            map.put(status.code, status);
+            map.put(status.msg, status);
         }
     }
 
-    MyStatus(int code) {
-        this.code = code;
+    MyStatus(int msg) {
+        this.msg = msg;
     }
 
-    public int getCode() {
-        return code;
+    public int getMessage() {
+        return msg;
     }
 
-    public static MyStatus valueOf(int code){
-        return map.get(code);
+    public static MyStatus valueOf(int msg){
+        return map.get(msg);
     }
 }
